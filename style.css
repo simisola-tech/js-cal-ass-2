@@ -1,0 +1,51 @@
+**,
+**::before,
+**::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: peachpuff;
+    min-height: 100vh;
+    /* display: grid; */
+    place-content: center;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+header{
+    color: blue;
+    margin: 20px auto 20px auto;
+    /* align-self: center;
+    justify-self: center; */
+    width: fit-content;
+}
+
+.container{
+    background-color: aliceblue;
+    padding: 2rem;
+    border-radius:1rem ;
+    width: fit-content;
+    padding-bottom: 2px;
+    margin: 20px auto 20px auto;
+}
+
+input{
+    padding: auto;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+select{
+    border-radius: 5px;
+}
+
+button{
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid;
+}
